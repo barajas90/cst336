@@ -14,11 +14,11 @@ in html
 <!-- All styles and javascript go inside the head -->
     <head>
         <meta char=”utf-8” />
-        <title>William Barajas : Personal Website</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <nav>
         <header>
-            <h1>William Barajas</h1>
+            <h1>Juan Doe</h1>
         </header>
         <hr width = "50%" />
         <a href="index.html">Home</a>
@@ -30,11 +30,11 @@ in html
     
     <main>
         
-        <figure>
+        <figure id= "me">
             <img src="img/juan_doe.png" alt="Picture of Juan Doe"/>
         </figure>
         
-        <div>
+        <div id="welcomeText">
             Hello! <br />
             <p>Thank you for visiting my professional porfolio website.</p>
             
@@ -58,17 +58,18 @@ in html
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
-        <footer>
+        <footer id="info">
             <hr>
             Course Name. 2017&copy; William <br />
             <strong>Disclaimer:</strong> The information in this webpage is 
             fictitous. <br />
             It is used for academic purposes only.
-            
+            <figure>
+            <img src="img/csumb.png" alt="csumb logo"/>
+            </figure>
         </footer>
         <!-- closing footer -->
-        
-    </body>
+    
     <!-- closing body -->
 
 </html>
