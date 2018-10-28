@@ -1,0 +1,84 @@
+body{
+    background-image:url(../images/binary1.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+    color:white;
+    }
+
+header, main, nav, footer{
+        text-align: center;
+    }
+
+nav a{ /* links within "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;    /* removes underline */
+    color:white;
+    }
+    
+nav a:hover { /*pseudo class*/
+        border-bottom: 2px white solid;
+        font-size: 2.5em; 
+        transition: .9s; /* transition effect*/
+    }
+
+#me, #welcomeText{
+    float: left;
+}
+
+footer{
+    clear:left;
+}
+
+#info{
+    font-size: 0.7em;
+    color: red;
+}
+#overview{
+    text-align: left;
+}
+table{
+    margin:0px auto;
+}
+td{
+    padding-right: 10px;
+    font-size: 1.3em
+}
+#bold{
+    color: red;
+}
+#table-header{
+    background-color: #351a00;
+}
+.table-row{
+    background-color: #753900;
+}
+ul{
+    text-align: left;
+}
+.typew{
+    color:red;
+}
+#content{
+    text-align: center;
+}
+h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+#overview1{
+    text-align: left;
+    padding-right: 300px;
+}
+#overview2{
+    text-align:left;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#norton{
+    color:white;
+}
