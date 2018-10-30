@@ -1,0 +1,37 @@
+[30-Oct-2018 08:56:15 UTC] PHP Fatal error:  Call to undefined function displaySymbo1() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 10
+[30-Oct-2018 08:56:15 UTC] PHP Stack trace:
+[30-Oct-2018 08:56:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[30-Oct-2018 08:59:13 UTC] PHP Fatal error:  Call to undefined function displaySymbo1() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 10
+[30-Oct-2018 08:59:13 UTC] PHP Stack trace:
+[30-Oct-2018 08:59:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[30-Oct-2018 10:48:40 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 16
+[30-Oct-2018 10:48:40 UTC] PHP Stack trace:
+[30-Oct-2018 10:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[30-Oct-2018 10:48:40 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:8
+[30-Oct-2018 11:11:34 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[30-Oct-2018 11:11:34 UTC] PHP Stack trace:
+[30-Oct-2018 11:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[30-Oct-2018 11:33:45 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php on line 5 and defined in /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php on line 28
+[30-Oct-2018 11:33:45 UTC] PHP Stack trace:
+[30-Oct-2018 11:33:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[30-Oct-2018 11:33:45 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:14
+[30-Oct-2018 11:33:45 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php:5
+[30-Oct-2018 11:33:45 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php on line 5 and defined in /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php on line 28
+[30-Oct-2018 11:33:45 UTC] PHP Stack trace:
+[30-Oct-2018 11:33:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[30-Oct-2018 11:33:45 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:14
+[30-Oct-2018 11:33:45 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php:5
+[30-Oct-2018 11:33:45 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php on line 5 and defined in /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php on line 28
+[30-Oct-2018 11:33:45 UTC] PHP Stack trace:
+[30-Oct-2018 11:33:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[30-Oct-2018 11:33:45 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:14
+[30-Oct-2018 11:33:45 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php:5
+[30-Oct-2018 11:34:36 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php on line 5
+[30-Oct-2018 11:34:36 UTC] PHP Stack trace:
+[30-Oct-2018 11:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[30-Oct-2018 11:59:32 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php on line 15
+[30-Oct-2018 11:59:32 UTC] PHP Stack trace:
+[30-Oct-2018 11:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[30-Oct-2018 12:06:50 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/cst336/labs/lab2/777/inc/functions.php on line 16
+[30-Oct-2018 12:06:50 UTC] PHP Stack trace:
+[30-Oct-2018 12:06:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
