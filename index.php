@@ -9,7 +9,8 @@ echo "William Barajas' CST336 Home Page";
 <br><br>
 <p>LABS</p>
 <a href="labs/lab1/index.html"> Lab 1 </a>
-<a href="labs/lab2/777/index.html"> Lab 2</a>
+<br>
+<a href="labs/lab2/777/index.php"> Lab 2</a>
 <br><br>
 <p>HOMEWORK</p>
 <a href="HW/homework1/index.html"> Homework 1</a>
