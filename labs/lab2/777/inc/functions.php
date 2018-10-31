@@ -1,7 +1,7 @@
 <?php
     function play() {
             for ($i =1;$i<4;$i++){
-                ${"randomValue" . $i } = rand(0,3);
+                ${"randomValue" . $i } = rand(0,0);
                 displaySymbol(${"randomValue" . $i}, $i);
             }
             displayPoints($randomValue1, $randomValue2, $randomValue3);
@@ -12,7 +12,7 @@
             switch($randomValue1){
                 case 0: $totalPoints = 1000;
                         echo"<h1>Jackpot!</h1>";
-                        echo'<audio controls autoplay class="music" src="img/jackpot.mp3" </audio>';
+                        echo"<audio controls autoplay class='music' src='img/jackpot.mp3'></audio>";
                         break;
                 case 1: $totalPoints = 500;
                         break;
