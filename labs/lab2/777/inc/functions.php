@@ -1,7 +1,7 @@
 <?php
     function play() {
             for ($i =1;$i<4;$i++){
-                ${"randomValue" . $i } = rand(0,0);
+                ${"randomValue" . $i } = rand(0,3);
                 displaySymbol(${"randomValue" . $i}, $i);
             }
             displayPoints($randomValue1, $randomValue2, $randomValue3);
