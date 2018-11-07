@@ -11,6 +11,7 @@
     <body>
         <h1 id= "title">Pet Randomizer</h1><br><br />
         <div id="randomizer">
+                <nav><a href="index.php">Home</a><br><br /></nav>
                 <p>Click the button to get random dogs or cats to adopt</p>
                 <p>If you wish to change pet after press the retry button to get a different animal</p>
             
