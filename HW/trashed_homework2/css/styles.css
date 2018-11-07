@@ -1,0 +1,59 @@
+    #title{
+        font-family: 'Baloo Bhaina', cursive;
+        width:500;
+        height:300;
+        text-align: center;
+        margin:auto;
+    }
+    nav a{ /* links within "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 2.4em;
+    text-decoration: none;    /* removes underline */
+    color:white;
+    background-color: lightblue;
+    }     
+    body {
+        background-color: black;
+        background-image:url("../img/background.png");
+        color: white;
+    }
+    
+    
+    nav a:hover { /*pseudo class*/
+        border-bottom: 2px red solid;
+        font-size: 2em; 
+        transition: .9s; /* transition effect*/
+    }
+    
+    
+    footer, nav{
+        font-family: "Times New Roman", Georgia, Serif;
+        font-size:.8em;
+        margin:0 auto;
+        padding-top:10px;
+        text-align: center;
+    }
+    
+    #question{
+        margin: 0 auto;
+        text-align: center;
+    }
+    #byetext{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .mickey {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .game{
+                position:absolute;
+                left:50%;
+                top:50%;
+                text-align: center;
+                font-size: 2em;
+    }
+    

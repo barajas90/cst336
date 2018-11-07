@@ -1,0 +1,159 @@
+[07-Nov-2018 14:37:12 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 20
+[07-Nov-2018 14:37:12 UTC] PHP Stack trace:
+[07-Nov-2018 14:37:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:37:12 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 20
+[07-Nov-2018 14:37:12 UTC] PHP Stack trace:
+[07-Nov-2018 14:37:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:37:12 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 21
+[07-Nov-2018 14:37:12 UTC] PHP Stack trace:
+[07-Nov-2018 14:37:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:01 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 21
+[07-Nov-2018 14:39:01 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:44 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:39:44 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:44 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:39:44 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:44 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 53
+[07-Nov-2018 14:39:44 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:52 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:39:52 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:52 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:39:52 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:52 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 53
+[07-Nov-2018 14:39:52 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:55 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:39:55 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:55 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:39:55 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:55 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 53
+[07-Nov-2018 14:39:55 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:58 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:39:58 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:58 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:39:58 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:39:58 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 53
+[07-Nov-2018 14:39:58 UTC] PHP Stack trace:
+[07-Nov-2018 14:39:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:01 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:01 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:01 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:01 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:01 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 53
+[07-Nov-2018 14:40:01 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:45 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:45 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:45 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:45 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:45 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 53
+[07-Nov-2018 14:40:45 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:49 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:49 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:49 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:49 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:49 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 53
+[07-Nov-2018 14:40:49 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:52 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:52 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:52 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:52 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:52 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 53
+[07-Nov-2018 14:40:52 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:54 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:54 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:54 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:54 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:54 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 53
+[07-Nov-2018 14:40:54 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:57 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:57 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:57 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 52
+[07-Nov-2018 14:40:57 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:40:57 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 53
+[07-Nov-2018 14:40:57 UTC] PHP Stack trace:
+[07-Nov-2018 14:40:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:44:53 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 45
+[07-Nov-2018 14:44:53 UTC] PHP Stack trace:
+[07-Nov-2018 14:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:44:53 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 45
+[07-Nov-2018 14:44:53 UTC] PHP Stack trace:
+[07-Nov-2018 14:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:44:53 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 46
+[07-Nov-2018 14:44:53 UTC] PHP Stack trace:
+[07-Nov-2018 14:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:45:40 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 45
+[07-Nov-2018 14:45:40 UTC] PHP Stack trace:
+[07-Nov-2018 14:45:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:45:40 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 45
+[07-Nov-2018 14:45:40 UTC] PHP Stack trace:
+[07-Nov-2018 14:45:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:45:40 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/cst336/HW/homework2/index.php on line 46
+[07-Nov-2018 14:45:40 UTC] PHP Stack trace:
+[07-Nov-2018 14:45:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/index.php:0
+[07-Nov-2018 14:49:11 UTC] PHP Fatal error:  Call to undefined function choose() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 18
+[07-Nov-2018 14:49:11 UTC] PHP Stack trace:
+[07-Nov-2018 14:49:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:20:46 UTC] PHP Fatal error:  Call to undefined function choose_cat() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 19
+[07-Nov-2018 15:20:46 UTC] PHP Stack trace:
+[07-Nov-2018 15:20:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:21:38 UTC] PHP Fatal error:  Call to undefined function choose_cat() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 19
+[07-Nov-2018 15:21:38 UTC] PHP Stack trace:
+[07-Nov-2018 15:21:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:23:29 UTC] PHP Fatal error:  Call to undefined function choose_cat() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 19
+[07-Nov-2018 15:23:29 UTC] PHP Stack trace:
+[07-Nov-2018 15:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:24:52 UTC] PHP Fatal error:  Call to undefined function choose_cat() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 19
+[07-Nov-2018 15:24:52 UTC] PHP Stack trace:
+[07-Nov-2018 15:24:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:28:03 UTC] PHP Fatal error:  Call to undefined function choose_cat() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 19
+[07-Nov-2018 15:28:03 UTC] PHP Stack trace:
+[07-Nov-2018 15:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:29:42 UTC] PHP Fatal error:  Call to undefined function choose_dog() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 20
+[07-Nov-2018 15:29:42 UTC] PHP Stack trace:
+[07-Nov-2018 15:29:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:33:12 UTC] PHP Fatal error:  Call to undefined function choose_dog() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 20
+[07-Nov-2018 15:33:12 UTC] PHP Stack trace:
+[07-Nov-2018 15:33:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:34:55 UTC] PHP Fatal error:  Cannot redeclare displayCat() (previously declared in /home/ubuntu/workspace/cst336/HW/homework2/inc/cat.php:35) in /home/ubuntu/workspace/cst336/HW/homework2/inc/dog.php on line 35
+[07-Nov-2018 15:34:55 UTC] PHP Stack trace:
+[07-Nov-2018 15:34:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:45:13 UTC] PHP Fatal error:  Call to undefined function choose() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 19
+[07-Nov-2018 15:45:13 UTC] PHP Stack trace:
+[07-Nov-2018 15:45:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:48:08 UTC] PHP Fatal error:  Call to undefined function choose() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 19
+[07-Nov-2018 15:48:08 UTC] PHP Stack trace:
+[07-Nov-2018 15:48:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:48:59 UTC] PHP Fatal error:  Call to undefined function choose() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 19
+[07-Nov-2018 15:48:59 UTC] PHP Stack trace:
+[07-Nov-2018 15:48:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
+[07-Nov-2018 15:55:41 UTC] PHP Fatal error:  Call to undefined function choose_cat() in /home/ubuntu/workspace/cst336/HW/homework2/adopt.php on line 19
+[07-Nov-2018 15:55:41 UTC] PHP Stack trace:
+[07-Nov-2018 15:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/homework2/adopt.php:0
