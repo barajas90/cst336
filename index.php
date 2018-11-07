@@ -14,7 +14,7 @@ echo "William Barajas' CST336 Home Page";
 <br><br>
 <p>HOMEWORK</p>
 <a href="HW/homework1/index.php"> Homework 1</a>
-<a href=""> Homework 2</a>
+<a href="HW/homework2/index.php"> Homework 2</a>
 
 </body>
 </html>
