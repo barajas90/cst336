@@ -19,10 +19,6 @@
     
     <body>
         <div class="pet">
-            <?php>
-                include 'inc/pet.php';
-                choose_pet();
-            ?>
             <?php
             $submit = $_post['enter'];
                 function choose_pet() {

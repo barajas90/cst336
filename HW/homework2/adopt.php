@@ -11,7 +11,7 @@
     <body>
         <h1 id= "title">Pet Randomizer</h1><br><br />
         <div id="randomizer">
-                <nav><a href="index.php">Home</a><br><br /></nav>
+                <a href="index.php" style="color:yellow">Home</a><br><br />
                 <p>Click the button to get random dogs or cats to adopt</p>
                 <p>If you wish to change pet after press the retry button to get a different animal</p>
             
@@ -21,8 +21,18 @@
                 
             ?>
             <form>
-                <input type="submit" value="Retry"/>
+                <input type="submit" value="Retry">
             </form>
         </div>
     </body>
+    <footer id="info">
+            <hr>
+            Course Name. 2017&copy; William <br />
+            <strong>Disclaimer:</strong> The information in this webpage is 
+            fictitous. <br />
+            It is used for academic purposes only.
+            <figure>
+            <img src="img/csumb.png" alt="csumb logo" style="width:100px;height:50px"/>
+            </figure>
+        </footer>
 </html>

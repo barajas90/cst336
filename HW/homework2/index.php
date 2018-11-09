@@ -10,16 +10,15 @@
     
     <body>
         <h1 id= "title">Adopt a Pet</h1><br><br />
-        <img class="pet" src="img/pet.jpg" alt="pic of pet adoption"></img>
+        <img class="pet" src="img/pet.jpg" alt="pic of pet adoption"/>
         <br><br />
         <nav class="petlink">  
             <a href="adopt.php">Yes</a>
             <a href="noAdoption.html">No</a>
         </nav>
     </body>
-    
     <footer id="info">
-            <hr>
+        <hr>
             Course Name. 2017&copy; William <br />
             <strong>Disclaimer:</strong> The information in this webpage is 
             fictitous. <br />
