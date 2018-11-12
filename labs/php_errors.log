@@ -58,3 +58,6 @@
 [12-Nov-2018 14:03:28 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 50
 [12-Nov-2018 14:03:28 UTC] PHP Stack trace:
 [12-Nov-2018 14:03:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 15:20:44 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 52
+[12-Nov-2018 15:20:44 UTC] PHP Stack trace:
+[12-Nov-2018 15:20:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
