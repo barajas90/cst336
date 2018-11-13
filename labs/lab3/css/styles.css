@@ -14,3 +14,6 @@
          margin: 0 auto;   
          width: 700px;
     }
+    input[name="layout"]:checked{
+        
+    }

@@ -61,3 +61,81 @@
 [12-Nov-2018 15:20:44 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 52
 [12-Nov-2018 15:20:44 UTC] PHP Stack trace:
 [12-Nov-2018 15:20:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 16:49:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 10
+[12-Nov-2018 16:57:27 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 5
+[12-Nov-2018 17:28:51 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 30
+[12-Nov-2018 17:28:51 UTC] PHP Stack trace:
+[12-Nov-2018 17:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:29:10 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 30
+[12-Nov-2018 17:29:10 UTC] PHP Stack trace:
+[12-Nov-2018 17:29:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:33:22 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6
+[12-Nov-2018 17:33:22 UTC] PHP Stack trace:
+[12-Nov-2018 17:33:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:34:04 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 8
+[12-Nov-2018 17:34:04 UTC] PHP Stack trace:
+[12-Nov-2018 17:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:34:04 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:8
+[12-Nov-2018 17:34:04 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 8
+[12-Nov-2018 17:34:04 UTC] PHP Stack trace:
+[12-Nov-2018 17:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:34:04 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:8
+[12-Nov-2018 17:34:07 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 8
+[12-Nov-2018 17:34:07 UTC] PHP Stack trace:
+[12-Nov-2018 17:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:34:07 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:8
+[12-Nov-2018 17:34:08 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 8
+[12-Nov-2018 17:34:08 UTC] PHP Stack trace:
+[12-Nov-2018 17:34:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:34:08 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:8
+[12-Nov-2018 17:34:16 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 8
+[12-Nov-2018 17:34:16 UTC] PHP Stack trace:
+[12-Nov-2018 17:34:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:34:16 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:8
+[12-Nov-2018 17:34:16 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 8
+[12-Nov-2018 17:34:16 UTC] PHP Stack trace:
+[12-Nov-2018 17:34:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:34:16 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:8
+[12-Nov-2018 17:36:25 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 9
+[12-Nov-2018 17:36:25 UTC] PHP Stack trace:
+[12-Nov-2018 17:36:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:36:25 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:9
+[12-Nov-2018 17:36:25 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 9
+[12-Nov-2018 17:36:25 UTC] PHP Stack trace:
+[12-Nov-2018 17:36:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:36:25 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:9
+[12-Nov-2018 17:36:30 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 9
+[12-Nov-2018 17:36:30 UTC] PHP Stack trace:
+[12-Nov-2018 17:36:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:36:30 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:9
+[12-Nov-2018 17:36:31 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 9
+[12-Nov-2018 17:36:31 UTC] PHP Stack trace:
+[12-Nov-2018 17:36:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:36:31 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:9
+[12-Nov-2018 17:36:33 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 9
+[12-Nov-2018 17:36:33 UTC] PHP Stack trace:
+[12-Nov-2018 17:36:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:36:33 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:9
+[12-Nov-2018 17:36:33 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 9
+[12-Nov-2018 17:36:33 UTC] PHP Stack trace:
+[12-Nov-2018 17:36:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:36:33 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:9
+[12-Nov-2018 17:36:34 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 9
+[12-Nov-2018 17:36:34 UTC] PHP Stack trace:
+[12-Nov-2018 17:36:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:36:34 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:9
+[12-Nov-2018 17:36:34 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 9
+[12-Nov-2018 17:36:34 UTC] PHP Stack trace:
+[12-Nov-2018 17:36:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[12-Nov-2018 17:36:34 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:9
+[13-Nov-2018 02:18:09 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 31
+[13-Nov-2018 02:18:09 UTC] PHP Stack trace:
+[13-Nov-2018 02:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[13-Nov-2018 02:32:09 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 31
+[13-Nov-2018 02:32:09 UTC] PHP Stack trace:
+[13-Nov-2018 02:32:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[13-Nov-2018 06:00:02 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 52
+[13-Nov-2018 06:00:02 UTC] PHP Stack trace:
+[13-Nov-2018 06:00:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[13-Nov-2018 06:07:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 38
+[13-Nov-2018 07:07:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 100

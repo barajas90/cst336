@@ -1,13 +1,14 @@
 <?php
     $backgroundImage = "img/sea.jpg";
+    
     //API call goes here
     if(isset($_GET['keyword'])) {
-        include 'api/pixabayAPI.php';
-        $keyword = $_GET['keyword'];
-        $imageURLs = getImageURLs($keyword);
-        $backgroundImage = $imageURLs[array_rand($imageURLs)];
-    }
+            include 'api/pixabayAPI.php';
+            $keyword = $_GET['keyword'];
+            $imageURLs = getImageURLs($keyword);
+            $backgroundImage = $imageURLs[array_rand($imageURLs)];
             
+    }        
 ?>
 <!DOCTYPE html>
 <html>
@@ -25,17 +26,19 @@
     <body>
     <br>
     <?php
-        if(!isset($imageURLs)){
+        if(empty($keyword)){
             echo "<h2>Type a keyword to display a slideshow with random images from Pixabay.com </h2>";
+            
         }else{  //display carousel here
             
-        
+            
     ?>
-    <div id ="carousel-example-generic" class="carousel slide" data-ride="carousel"></div>
+    
+    <div id ="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!--indicators here-->
         <ol class="carousel-indicators">
         <?php
-            for($i=0;$i<5;$i++){
+            for($i=0;$i<7;$i++){
                 echo"<li data-target='#carousel-example-generic' data-slide-to='$i'";
                 echo($i == 0) ? "class='active'" : "";
                 echo "></li>";
@@ -45,13 +48,13 @@
         <!--Wrapper for images-->
         <div class ="carousel-inner" role="listbox">
             <?php
-                for($i = 0;$i<5;$i++){
+                for($i = 0;$i<7;$i++){
                     do{
                         $randomIndex = rand(0, count($imageURLs));
-                            
-                        }while(!isset($imageURLs[$randomIndex]));
+                    } while(!isset($imageURLs[$randomIndex]));
+                    
                         echo'<div class = "carousel-item ';
-                        echo ($i == 0)?"active": "";
+                        echo ($i == 0) ? "active" : "";
                         echo '">';
                         echo '<img src="' . $imageURLs[$randomIndex] . '">';
                         echo '</div>';
@@ -68,23 +71,24 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
             </a>
-    </div>
+        </div>
         <?php
             }    //endElse
         ?>
         <br>
         <form>
-            <input type="text" name="keyword" placeholder="keyword" value= "<?=$_GET ['keyword']?>"/>
-            <input type="radio" id="lhorizontal" name="layout" value"horizontal">
+            <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
+            <input type="radio"  id="lhorizontal" name="layout" value="horizontal" >
             <label for = "Horizontal"></label><label for="lhorizontal"> Horizontal </label>
             <input type="radio" id="lvertical" name="layout" value="vertical">
-            <label for="Vertical"></label><label for="lvertical">Vertical</label>
+            <label for= "Vertical"></label><label for="lvertical"> Vertical </label>
             <select name= "category">
-                <option value="">Select One</option>
-                <option value="ocean">Sea</option>
-                <option>Forest</option>
-                <option>Mountain</option>
-                <option>Snow</option>
+                <option value="">Select One </option>
+                <option value="ocean" >Sea</option>
+                <option value="forest" >Forest</option>
+                <option value="mountain">Mountain</option>
+                <option value="snow" >Snow</option>
+                <option value="fire" >Fire</option>
             </select>
             <input type="submit" value="Search" />
         </form>

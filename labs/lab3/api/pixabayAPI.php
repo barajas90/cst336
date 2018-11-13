@@ -23,7 +23,6 @@ function getImageURLs($keyword, $orientation="horizontal") {
     }
     $err = curl_error($curl);
     curl_close($curl);
-    
     return $imageURLs;
 }
 
