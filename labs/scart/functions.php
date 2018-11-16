@@ -10,13 +10,13 @@ function displayCart(){
             echo'</tr>';
             
             //Display data for item
-            echo "<td><img src ='". $item['image'] . "'</td>";
+            echo "<td><img src ='" . $item['image'] . "'></td>";
             echo "<td><h4>" . $item['name'] . "</h4></td>";
-            echo "<td><h4>$". $item['price']."</h4></td>";
+            echo "<td><h4>$" . $item['price'] . "</h4></td>";
             echo "<tr>";
             
             //update form for this item
-            echo"<form moethod = 'post'>";
+            echo'<form method = "post">';
             echo"<input type='hidden' name='itemId' value='$itemId'>";
             echo"<td><input type='text' name='update' class'form control' placeHolder='$itemQuant'></td>";
             echo"<td><button class='btn btn-danger'>Update</button></td>";
@@ -39,7 +39,6 @@ function displayCartCount(){
 
 //Displays the search results in a table
 function displayResults(){
-
     global $items;//Neccessary to get global items array
     if(isset($items)){
     echo "<table class = 'table'>";
@@ -64,9 +63,9 @@ function displayResults(){
         
         //Check to see if the most recent POST request has the same itemId
         //If so, this item was just added to the cart. Display different button
-        if($_POST['itemId']== $itemId){
+        if($_POST['itemId'] == $itemId){
         
-            echo "<td><button class='btn btn-success'>Added</button></td>";
+            echo '<td><button class="btn btn-success">Added</button></td>';
 
         }else{
         

@@ -5,8 +5,8 @@
     session_start();
     
     //creates an array in the session to hold our cart items
-    if(isset($_SESSION['cart'])){
-        $_SESSION['cart']=array();
+    if(!isset($_SESSION['cart'])){
+        $_SESSION['cart'] = array();
     }
     
     //checks to see if form is submitted
@@ -22,12 +22,12 @@
         //Creating an array to hold an item's properties.
         $newItem = array();
         $newItem['name'] = $_POST['itemName'];
-        $newItem['id']= $_POST['itemId'];
+        $newItem['id'] = $_POST['itemId'];
         $newItem['price'] = $_POST['itemPrice'];
         $newItem['image'] = $_POST['itemImage'];
         
         // Check to see if other items with this id are in the array   
-        // If so, this itemisn't new. Only update quantity
+        // If so, this item isn't new. Only update quantity
         // Must be passed by refrence so that each item can be updated!
         foreach($_SESSION['cart'] as &$item){ 
             if($newItem['id'] == $item['id']){
@@ -37,7 +37,7 @@
         }
         
         // Else add it to the array
-        if(found != true){
+        if($found != true){
             $newItem['quantity'] = 1;
             array_push($_SESSION['cart'], $newItem);
         }
