@@ -20,7 +20,7 @@
         </style>
         </header>
         
-<!-- Question 1 (RADIO) -->   
+<!-- Question 1 radio -->   
         <div class="container">
 
         <br /><br />
@@ -41,7 +41,7 @@
                 <label for="spawn">Spawn</label><br>
                 
             </fieldset>  
-<!-- Question 2 (Dropdown) -->  
+<!-- Question 2 dropdown -->  
         <br />
             <fieldset><label for="Question2"><strong>2. Who created the Super Heroes from Marvel?</strong></label>
             <br />
@@ -56,7 +56,7 @@
                 </select>
                 <br />
             </fieldset>        
-<!-- Question 3 (Text) --> 
+<!-- Question 3 text --> 
         <br />
             <fieldset >
                 <label for="Question3"><strong>3. How many claws does Wolverine have in one hand? 1-5</strong></label>
@@ -67,7 +67,7 @@
                 <br />
             </fieldset> 
 
-<!-- Question 4 (Checkboxes) -->  
+<!-- Question 4 checkboxes -->  
         <br />
             <fieldset> <label for="Question4"><strong>4. Who is the Hulk? </strong></label>
             <br />
@@ -87,7 +87,7 @@
                 <br />
             </fieldset>        
         
-<!-- Question 5 (Radio Button) -->
+<!-- Question 5 radio  -->
         </br>
         <fieldset>
                 <label for="q1"><strong>5. What is Spider Man's Secret Identity? </strong></label> 
@@ -106,6 +106,23 @@
                 
             </fieldset>  
             </br>
+            <!-- Question 6 dropdown -->  
+        <br />
+            <fieldset><label for="Question6"><strong>6. Who uses the Infinity Gauntlet?</strong></label>
+            <br />
+                <select name="q6" required="required" placeholder="">
+                    <option  value ="">Select One</option>
+                    <option  value="thanos">Thanos</option>
+                        
+                    <option  value="blackPanther">Black Panther</option>
+                    
+                    <option value= "stanLee">Stan Lee</option>
+                    
+                    <option value= "loki">Loki</option>
+                        
+                </select>
+                <br />
+            </fieldset> cx
         </form>
     </div>
             <div class="button">
@@ -119,7 +136,7 @@
     $answer3=$_GET['q3'];
     $answer4=$_GET['q4'];
     $answer5=$_GET['q5'];
-    //$answer6=$_GET['q6'];
+    $answer6=$_GET['q6'];
     
     if(isset($_GET['submit'])){
         if($answer1=="spawn"){
@@ -132,13 +149,11 @@
             $totalScore++;
         }if($answer5=="peterParker"){
             $totalScore++;
-        }
-        echo"<div id='results'>$totalScore / 5 correct</div>";
-        
-    }else{
+        }if($answer6=="thanos"){
+            $totalScore++;
+        echo"<div id='results'>$totalScore / 6 correct</div>";
         
     }
-        
     
 ?>
     <footer id=info>
