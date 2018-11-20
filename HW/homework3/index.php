@@ -90,7 +90,7 @@
 <!-- Question 5 radio  -->
         </br>
         <fieldset>
-                <label for="q1"><strong>5. What is Spider Man's Secret Identity? </strong></label> 
+                <label for="q5"><strong>5. What is Spider Man's Secret Identity? </strong></label> 
             <br />
                 <input type="radio" name="q5" value="lukeCage">
                 <label for="lukeCage">Luke Cage</label><br>
@@ -106,7 +106,7 @@
                 
             </fieldset>  
             </br>
-            <!-- Question 6 dropdown -->  
+<!-- Question 6 dropdown -->  
         <br />
             <fieldset><label for="Question6"><strong>6. Who uses the Infinity Gauntlet?</strong></label>
             <br />
