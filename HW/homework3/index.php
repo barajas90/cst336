@@ -91,9 +91,9 @@
         </br>
         <fieldset>
                 <label for="q1"><strong>5. What is Spider Man's Secret Identity? </strong></label> 
-            <br /
+            <br />
                 <input type="radio" name="q5" value="lukeCage">
-                <label for= "lukeCage">Luke Cage</label><br>
+                <label for="lukeCage">Luke Cage</label><br>
                 
                 <input type="radio" name="q5" value="jonahJameson">                      
                 <label for="jonahJameson">Jonah Jameson</label><br>
