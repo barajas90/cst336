@@ -1,0 +1,46 @@
+fieldset {
+    width:400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    font-size: 15pt;
+    font-family: "Times New Roman", Georgia, Serif;;
+    color: red;
+    
+}
+h1{
+    font-size: 3.0em;
+    text-align: center;
+    margin: 0 auto;
+    color: red;
+}
+.button{
+    text-align: center;
+    margin: 0 auto;
+}
+#results{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+    color: red;
+}
+input {
+    text-align: center;
+}
+
+#info{
+        font-family: "Times New Roman", Georgia, Serif;
+        font-size:.8em;
+        width:600px;
+        margin:0 auto;
+        text-align: center;
+        padding-top:10px;
+        color:white;
+}
+     
+    
+body{
+                background-image: url("img/marvel.jpg");
+                background-repeat: no-repeat;
+                background-color: black;
+            }
