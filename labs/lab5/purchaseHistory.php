@@ -19,7 +19,7 @@
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
     echo $records[0]['productName'] . "<br/>";
-    echo"<img src'" . $records[0]['productImage'] . "'width='200'/><br/>";
+    echo"<img src='" . $records[0]['productImage'] . "'width='200'/><br/>";
     
     foreach($records as $record){
         

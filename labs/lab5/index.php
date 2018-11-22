@@ -115,4 +115,14 @@
         <hr>
         <?=displaySearchResults()?>
     </body>
+    <footer id="info">
+            <hr>
+            Course Name. 2017&copy; William <br />
+            <strong>Disclaimer:</strong> The information in this webpage is 
+            fictitous. <br />
+            It is used for academic purposes only.
+            <figure>
+            <img class="otter" src="img/csumb.png" alt="csumb logo"/>
+            </figure>
+        </footer>
 </html>

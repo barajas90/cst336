@@ -1,4 +1,17 @@
-body{
+body,head{
     text-align:center;
     margin: 0 auto;
+    background-color: black;
+    color:white;
+}
+footer{
+    clear:left;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    color:white;
+}
+.otter{
+    width: 120px;
+    height: 60px;
 }
