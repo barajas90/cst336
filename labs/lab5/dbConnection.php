@@ -1,18 +1,27 @@
 <?php
-function displaySearchResults(){
+function getDatabaseConnection($dbname= 'ottermart'){
+    
+    $host = 'localhost';//cloud9
+    //$dbname = 'tcp';
+    $username = 'root';
+    $password = '';
+    
+     //when connecting from Heroku
+    if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
+        $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+        $host = $url["host"];
+        $dbname = substr($url["path"], 1);
+        $username = $url["user"];
+        $password = $url["pass"];
+    } 
 
-    global $conn;
-    if(isset($_GET['searchForm'])){ //checks wether user has submitted form
-        echo"<h3>Products Found: </h3>";
-        //Querry below prevents SQL injection
-        $namedParamaters = array();
-        
-        $SQL = "Select * FROM om_product where 1";
-        
-        if(!empty($_GET['product'])){//checks whether user has typed something in the "Product" text box
-            $sql .=" AND productName LIKE productName";
-            $namedParameters[":productName"] = "%" . $_GET['product'] . "%";
-        }
-    }
-}
+    //creates db connection
+    $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    
+    //display errors when accessing tables
+    $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+    return $dbConn;
+    
+}    
 ?>
