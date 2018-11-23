@@ -15,3 +15,14 @@ footer{
     width: 120px;
     height: 60px;
 }
+a{
+    color: red;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding-right: 5px;
+}
+a:hover { 
+        border-bottom: 2px yellow solid;
+        font-size: 1.4em; 
+        transition: .9s; /* transition effect*/
+    }
