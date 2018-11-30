@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -61,8 +60,7 @@
             <fieldset >
                 <label for="Question3"><strong>3. How many claws does Wolverine have in one hand? 1-5</strong></label>
             <br />
-                <input type="number" name="q3" min="1" max="5" placeholder="claws" 
-                value="<?=$_GET['claws']?>"" />
+                <input type="number" name="q3" min="1" max="5" placeholder="claws" value="<?=$_GET['claws']?>" />
                 <br>
                 <br />
             </fieldset> 
@@ -104,8 +102,8 @@
                 <input type="radio" name="q5" value="peterParker">                       
                 <label for="peterParker">Peter Parker</label><br>
                 
-            </fieldset>  
-            </br>
+        </fieldset>  
+        </br>
 <!-- Question 6 dropdown -->  
         <br />
             <fieldset><label for="Question6"><strong>6. Who uses the Infinity Gauntlet?</strong></label>
@@ -124,38 +122,38 @@
                 <br />
             </fieldset> cx
         </form>
-    </div>
+        </div>
             <div class="button">
             <input id="submit" name="submit" type="submit" value="Submit"/>
             </div>
         
-<?php
-    $totalScore=0;
-    $answer1=$_GET['q1'];
-    $answer2=$_GET['q2'];
-    $answer3=$_GET['q3'];
-    $answer4=$_GET['q4'];
-    $answer5=$_GET['q5'];
-    $answer6=$_GET['q6'];
+    <?php
+        $totalScore=0;
+        $answer1=$_GET['q1'];
+        $answer2=$_GET['q2'];
+        $answer3=$_GET['q3'];
+        $answer4=$_GET['q4'];
+        $answer5=$_GET['q5'];
+        $answer6=$_GET['q6'];
     
-    if(isset($_GET['submit'])){
-        if($answer1=="spawn"){
-            $totalScore++;
-        }if($answer2=="stanLee"){
-            $totalScore++;
-        }if($answer3=="3"){
-            $totalScore++;
-        }if($answer4=="bruceBanner"){
-            $totalScore++;
-        }if($answer5=="peterParker"){
-            $totalScore++;
-        }if($answer6=="thanos"){
-            $totalScore++;
-        echo"<div id='results'>$totalScore / 6 correct</div>";
-        
-    }
+        if(isset($_GET['submit'])){
+            if($answer1=="spawn"){
+                $totalScore++;
+            }if($answer2=="stanLee"){
+                $totalScore++;
+            }if($answer3=="3"){
+                $totalScore++;
+            }if($answer4=="bruceBanner"){
+                $totalScore++;
+            }if($answer5=="peterParker"){
+                $totalScore++;
+            }if($answer6=="thanos"){
+                $totalScore++;
+            echo"<div id='results'>$totalScore / 6 correct</div>";
+            }
+        }
     
-?>
+    ?>
     <footer id=info>
             <hr>
             CST 336 Internet Programming: 2018&copy; Barajas <br />
@@ -165,5 +163,5 @@
             <figure>
             <img src="img/csumb.png" alt="csumb logo"/>
             </figure>
-        </footer>
+    </footer>
 </html>
