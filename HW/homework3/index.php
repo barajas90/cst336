@@ -120,13 +120,13 @@
                         
                 </select>
                 <br />
-            </fieldset> cx
-        </form>
+            </fieldset> 
+    
         </div>
             <div class="button">
             <input id="submit" name="submit" type="submit" value="Submit"/>
             </div>
-        
+    </form>
     <?php
         $totalScore=0;
         $answer1=$_GET['q1'];
