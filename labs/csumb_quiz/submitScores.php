@@ -4,9 +4,9 @@ session_start();
 include 'connect.php';
 $connect = getDBConnection();
 
-$score = $_GET['https://wbarajas-williambarajas.c9users.io/cst336/labs/csumb_quiz/index.php?question1=1994&question2=C'];
+$score = $_POST['score'];
 
-$sql = "INSERT INTO scores(username, score)
+$sql = "INSERT INTO scores (username, score)
         VALUES (:username, :score)";
 $data = array(
     ":username" => $_SESSION['username'],
@@ -22,5 +22,6 @@ $sql = "SELECT count(1) times, avg(score) average
 $stmt = $connect->prepare($sql);
 $stmt->execute(array(":username"=>$_SESSION['username']));
 $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
 echo json_encode($result);
 ?>
