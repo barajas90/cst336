@@ -7,7 +7,8 @@ $(document).ready(function(){
     
     var score = 0;
     $("form").submit(function(event) {
-        
+        var history = array();
+        history = 'form';
         event.preventDefault();
         
         //Get answers

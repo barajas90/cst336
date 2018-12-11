@@ -31,6 +31,8 @@ echo "William Barajas' CST336 Home Page";
 <a href="HW/homework3/index.php"> Homework 3</a>
 <br><br>
 <a href="HW/hw4/index.html"> Homework 4</a>
+<br>
+<a href="Final_Project/index.php">Project</a>
 
 </body>
 </html>
